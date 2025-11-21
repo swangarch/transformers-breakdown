@@ -4,6 +4,12 @@ The goal of this project is to learn transformer by explaining everything in a s
 
 Note: This project will not provide a full encoder-decoder transformer implementation. Instead, we will focus on building a simplified demo version of a transformer with the **attention** mechanism to clearly illustrate the main concepts. The goal is to help you understand the core ideas.
 
+## Transformer
+
+The Transformer is the main architecture behind all modern large models. It was introduced in the famous paper **Attention is All You Need**. Then it was quickly adopted by BERT and GPT, and later became the foundation of almost all large models—not only LLMs, but also image models, audio models, video models, and multimodal models. Thanks to their contributions, AI has made remarkable progress and had a huge impact.
+
+Before writing any code, let’s explain things visually. It’s important to build intuition before touching abstract formulas.
+
 ## Prerequisite
 
 For this project, some basic machine learning prerequisites will be needed. I recommend reviewing the [MultiLayer Perceptron (MLP)](https://github.com/swangarch/multilayer_perceptron) chapter first.
@@ -24,11 +30,7 @@ Here are some key prerequisites:
 
 All other concepts required for understanding transformers will be explained along with the project step-by-step.
 
-## Transformer
 
-The Transformer is the main architecture behind all modern large models. It was introduced in the famous paper **Attention is All You Need**. Then it was quickly adopted by BERT and GPT, and later became the foundation of almost all large models—not only LLMs, but also image models, audio models, video models, and multimodal models. Thanks to their contributions, AI has made remarkable progress and had a huge impact.
-
-Before writing any code, let’s explain things visually. It’s important to build intuition before touching abstract formulas.
 
 ## Language representation
 
