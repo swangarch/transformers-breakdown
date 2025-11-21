@@ -2,9 +2,31 @@
 
 The goal of this project is to learn transformer by explaining everything in a simple way and coding them from scratch, so even people without a strong math background can understand. This follows the same spirit as the other Zero2ML projects.
 
+Note: This project will not provide a full encoder-decoder transformer implementation. Instead, we will focus on building a simplified demo version of a transformer with the **attention** mechanism to clearly illustrate the main concepts. The goal is to help you understand the core ideas.
+
+## Prerequisite
+
+For this project, some basic machine learning prerequisites will be needed. I recommend reviewing the [MultiLayer Perceptron (MLP)](https://github.com/swangarch/multilayer_perceptron) chapter first.
+
+Here are some key prerequisites:
+
+- [**Matrix Multiplication**](https://en.wikipedia.org/wiki/Matrix_multiplication): Fundamental operation in linear algebra used in neural networks.
+
+- [**Neural Network**](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)): Computational model inspired by the human brain, used for pattern recognition.
+
+- [**Feed forward**](https://en.wikipedia.org/wiki/Feedforward_neural_network): A step of neural network where information moves forward from input to output.
+
+- [**Back propagation**](https://en.wikipedia.org/wiki/Backpropagation): Algorithm used to compute gradients for weight updates using chain rule.
+
+- [**Gradient Descent**](https://en.wikipedia.org/wiki/Gradient_descent): Optimization algorithm used to minimize the loss function of a neural network.
+
+- [**Softmax**](https://en.wikipedia.org/wiki/Softmax_function): Function that converts a vector of values into a probability distribution.
+
+All other concepts required for understanding transformers will be explained along with the project step-by-step.
+
 ## Transformer
 
-The Transformer is the main architecture behind all modern large models. It was introduced in the famous paper **Attention is All You Need**. Then it was quickly adopted by BERT and GPT, and later became the foundation of almost all large models—not only LLMs, but also image models, audio models, video models, and multimodal models.
+The Transformer is the main architecture behind all modern large models. It was introduced in the famous paper **Attention is All You Need**. Then it was quickly adopted by BERT and GPT, and later became the foundation of almost all large models—not only LLMs, but also image models, audio models, video models, and multimodal models. Thanks to their contributions, AI has made remarkable progress and had a huge impact.
 
 Before writing any code, let’s explain things visually. It’s important to build intuition before touching abstract formulas.
 
