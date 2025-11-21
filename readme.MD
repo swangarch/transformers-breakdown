@@ -1,6 +1,6 @@
 # Transformer-breakdown
 
-The goal of this project is to learn transformer by explaining everything in a simple way and coding them from scratch, so even people without a strong math background can understand. This follows the same spirit as the other Zero2ML projects.
+The goal of this project is to learn transformer by explaining everything in a simple way and coding them from scratch, aiming to make the concepts accessible and easy to understand for people of all backgrounds. This follows the same spirit as the other Zero2ML projects.
 
 Note: This project will not provide a full encoder-decoder transformer implementation. Instead, we will focus on building a simplified demo version of a transformer with the **attention** mechanism to clearly illustrate the main concepts. The goal is to help you understand the core ideas.
 
